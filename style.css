@@ -57,3 +57,13 @@ a{
 
 
 /* configurar a imagem de plano de fundo e centralizar os textos na tela */
+
+
+
+/* faça a estilização dos cards dos produtos. Observe as classes boxProduto e boxImg
+
+a largura do box produto será de 890px o arredondamento de bordas será de 10px e a cor de fundo será a variável --corBox. A largura da imagem do produto será de 400px. O título do produto terá a cor da variável --subTituloEbotoes e o texto terá a cor da variável --texto.
+Utilizem os conceitos do flexbox para alinhar os elementos do card e alinhar os cards na tela.
+
+
+*/
