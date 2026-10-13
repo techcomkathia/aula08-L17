@@ -1,0 +1,24 @@
+/* reset das margins e paddings  */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* ------Atividade1 ----------------- */
+/* definição das variáveis de css */
+/* Plano de fundo barra de navegação: #1E1F22
+Títulos e plano de fundo botões: #FFAE00
+Plano de fundo cards: RGBA(37, 37, 37, 0.8)
+Textos: #ffffff */
+
+/* add, commit e push (git flow)  pela interface / controle de código fonte */
+
+:root{
+    --nome-variavel: 'valor';
+    --corBox:rgba(37, 37, 37, 0.8);
+    --corBarraNavegacao:rgb(30, 31, 34);
+    --subTituloEbotoes: rgb(255, 174, 0);
+    --texto: white;    
+}
+
