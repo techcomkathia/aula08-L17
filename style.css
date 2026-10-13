@@ -23,6 +23,12 @@ Textos: #ffffff */
     --texto: white;    
 }
 
+body{
+    background-image: url('imagens/bg.png');
+    text-align: center;
+    color: var(--texto);
+}
+
 header{
     background-color: var(--corBarraNavegacao);
     text-align: center;
@@ -48,3 +54,6 @@ a{
     font-weight: bolder;
     
 }
+
+
+/* configurar a imagem de plano de fundo e centralizar os textos na tela */
