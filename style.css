@@ -3,6 +3,7 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* ------Atividade1 ----------------- */
@@ -22,3 +23,28 @@ Textos: #ffffff */
     --texto: white;    
 }
 
+header{
+    background-color: var(--corBarraNavegacao);
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;  
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--texto);
+    font-weight: bolder;
+    
+}
