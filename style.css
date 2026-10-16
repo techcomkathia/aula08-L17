@@ -45,7 +45,10 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
+    position:fixed;
+ 
 }
+
 
 nav ul{
     display: flex;  
@@ -61,6 +64,12 @@ a{
     color: var(--texto);
     font-weight: bolder;
     
+}
+
+main{
+    position: relative;
+    top: 250px;
+    z-index:-1;
 }
 
 
