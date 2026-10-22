@@ -66,10 +66,16 @@ a{
     
 }
 
-main{
+.relativa{
     position: relative;
     top: 250px;
     z-index:-1;
+}
+
+.redondo{
+    width: 20px;
+    height: 20px;
+    /* border-radius: 50%; */
 }
 
 
