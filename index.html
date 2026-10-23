@@ -21,9 +21,21 @@
                 <li><a href="#burguer">Hamburgueres</a></li>
                 <li><a href="#acompanhamentos">Acompanhamentos</a></li>
                 <li><a href="#bebidas">Bebidas</a></li>
+                <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="offcanvasRight">Carrinho</a></li>
             </ul>
         </nav>
     </header>
+
+    
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="carrinho" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrinho</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt earum nisi porro itaque at adipisci, quis impedit perspiciatis distinctio maxime fugit sequi nulla! Fugiat recusandae ab sit deserunt ut et ea eum tempora libero quo velit sunt vel cumque, architecto dicta numquam consequatur dolore, possimus aspernatur aliquid labore mollitia suscipit?</p>
+    </div>
+    </div>
 
     <!-- deixe o cabeçalho fixo (não se move com a barra de navegação / scroll vertical . O conteúdo principal do cardápio deve estar dentro de uma div semântica main. Utilize as propriedades de css position, left, top, righth ou bottom para fazer o cabeçalho fixo, se necessário utilize o z-index. ) -->
 
@@ -107,6 +119,8 @@
 
 
     <!-- crie uma nova branch chamada carrinho : com uma nova âncora/link no menu do header faça o uso do componente offcanvas do bootstrap que abre um menu lateral a direita. Dentro do conteúdo do offcanvas adicione o título carrinho e a classe de texto centralizado e preto do bootstrap -->
+
+
 
 
 
